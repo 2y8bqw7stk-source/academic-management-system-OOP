@@ -16,7 +16,7 @@ Each business entity (except the entry point) is composed of a **header file (.h
 
 
 
-### 1. 🧑‍💼 Identity & Personnel
+ ### 1. 🧑‍💼 Identity & Personnel
 
 - **Person** (`personne.h / personne.cpp`)  
   Base class defining fundamental identity attributes.
@@ -29,7 +29,7 @@ Each business entity (except the entry point) is composed of a **header file (.h
 
 
 
-### 2. 📚 Academic Administration
+ ### 2. 📚 Academic Administration
 
 - **Module** (`Module.h / Module.cpp`)  
   Defines subjects, credits, and course structure.
@@ -42,7 +42,7 @@ Each business entity (except the entry point) is composed of a **header file (.h
 
 
 
-### 3. ⚙️ Core Engine & Infrastructure
+ ### 3. ⚙️ Core Engine & Infrastructure
 
 - **System** (`systeme.h / systeme.cpp`)  
   Central controller coordinating all modules.
