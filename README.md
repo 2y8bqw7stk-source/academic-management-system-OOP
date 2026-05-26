@@ -1,4 +1,5 @@
 Academic Management System
+
 📌 Overview
 This project is a robust Academic Management System developed in C++. It is designed to streamline educational administration by centralizing data management for students, faculty, courses, and performance tracking.
 
