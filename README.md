@@ -68,5 +68,5 @@ Each business entity (except the entry point) is composed of a **header file (.h
 
 1. Launch **Dev-C++ IDE**
 2. Open the project file: `Seance 3.dev`
-3. Ensure all `.h` and `.cpp` files are in the source directory
+3. Ensure all `.h` and  `.cpp` files are in the source directory
 4. Compile & Run using **F11**
