@@ -1,59 +1,72 @@
-Academic Management System
+# 🎓 Academic Management System
 
-📌 Overview
-This project is a robust Academic Management System developed in C++. It is designed to streamline educational administration by centralizing data management for students, faculty, courses, and performance tracking.
+## 📌 Overview
 
-The system follows strict Object-Oriented Programming (OOP) principles, ensuring a modular architecture with a clear separation between data interfaces and functional logic.
+This project is a robust **Academic Management System** developed in **C++**.  
+It is designed to streamline educational administration by centralizing data management for students, faculty, courses, and performance tracking.
 
-📂 Project Structure
-The system consists of 19 units organized into functional modules. Each business entity (except for the entry point) is composed of a header file (.h) for declarations and a source file (.cpp) for implementation.
+The system follows strict **Object-Oriented Programming (OOP)** principles, ensuring a modular architecture with a clear separation between data interfaces and functional logic.
 
-1. Identity & Personnel
+---
 
-Person (personne.h / personne.cpp): The base class defining fundamental identity attributes.
+## 📂 Project Structure
 
+The system consists of **19 units** organized into functional modules.  
+Each business entity (except the entry point) is composed of a **header file (.h)** for declarations and a **source file (.cpp)** for implementation.
 
-Student (etudiant.h / etudiant.cpp): Manages academic records and data specific to pupils.
+---
 
+### 1. 🧑‍💼 Identity & Personnel
 
-Teacher (enseignant.h / enseignant.cpp): Handles faculty-related information and assignments.
+- **Person** (`personne.h / personne.cpp`)  
+  Base class defining fundamental identity attributes.
 
-2. Academic Administration
+- **Student** (`etudiant.h / etudiant.cpp`)  
+  Manages academic records and student-specific data.
 
-Module (Module.h / Module.cpp): Defines subjects, credits, and course structures.
+- **Teacher** (`enseignant.h / enseignant.cpp`)  
+  Handles faculty information and assignments.
 
+---
 
-Enrollment (inscription.h / inscription.cpp): Manages the registration process and student-course links.
+### 2. 📚 Academic Administration
 
+- **Module** (`Module.h / Module.cpp`)  
+  Defines subjects, credits, and course structure.
 
-Assessment (Note.h/cpp & controle.h/cpp): A complete system for tracking grades and organizing exams.
+- **Enrollment** (`inscription.h / inscription.cpp`)  
+  Manages registration and student-course relationships.
 
-3. Core Engine & Infrastructure
+- **Assessment** (`Note.h / Note.cpp`, `controle.h / controle.cpp`)  
+  Handles grading system and exam organization.
 
-System (systeme.h / systeme.cpp): The central controller that orchestrates interactions between all modules.
+---
 
+### 3. ⚙️ Core Engine & Infrastructure
 
-Table (tableau.h / tableau.cpp): A custom data structure optimized for handling collections of objects.
+- **System** (`systeme.h / systeme.cpp`)  
+  Central controller coordinating all modules.
 
+- **Table** (`tableau.h / tableau.cpp`)  
+  Custom data structure for managing object collections.
 
-Main (Main.cpp): The standalone entry point of the application containing the primary execution loop.
+- **Main** (`Main.cpp`)  
+  Entry point containing the main execution loop.
 
-🛠️ Technical Specifications
+---
 
-Environment: Developed using the Dev-C++ IDE.
+## 🛠️ Technical Specifications
 
+- 🖥️ **Environment**: Dev-C++ IDE  
+- 📁 **Project File**: `Seance 3.dev`  
+- 💻 **Language**: C++ (ISO C++11 or higher recommended)  
+- 🧠 **Paradigm**: Object-Oriented Programming (Inheritance, Encapsulation, Polymorphism)
 
-Project File: Seance 3.dev.
+---
 
-Language: C++ (ISO C++11 or higher recommended).
+## 🚀 Getting Started
 
-Paradigm: Object-Oriented (Inheritance, Encapsulation, Polymorphism).
-
-🚀 Getting Started
-Launch the Dev-C++ IDE.
-
-Open the project file: Seance 3.dev.
-
-Ensure all .h and .cpp files listed in the project tree are present in the source directory.
-
-Use the Compile & Run command (F11) to build and execute the application.
+1. Launch **Dev-C++ IDE**
+2. Open the project file: `Seance 3.dev`
+3. Ensure all `.h` and `.cpp` files are in the source directory
+4. Compile & Run using **F11**
