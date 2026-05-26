@@ -7,14 +7,14 @@ It is designed to streamline educational administration by centralizing data man
 
 The system follows strict **Object-Oriented Programming (OOP)** principles, ensuring a modular architecture with a clear separation between data interfaces and functional logic.
 
----
+
 
 ## 📂 Project Structure
 
 The system consists of **19 units** organized into functional modules.  
 Each business entity (except the entry point) is composed of a **header file (.h)** for declarations and a **source file (.cpp)** for implementation.
 
----
+
 
 ### 1. 🧑‍💼 Identity & Personnel
 
@@ -27,7 +27,7 @@ Each business entity (except the entry point) is composed of a **header file (.h
 - **Teacher** (`enseignant.h / enseignant.cpp`)  
   Handles faculty information and assignments.
 
----
+
 
 ### 2. 📚 Academic Administration
 
@@ -40,7 +40,7 @@ Each business entity (except the entry point) is composed of a **header file (.h
 - **Assessment** (`Note.h / Note.cpp`, `controle.h / controle.cpp`)  
   Handles grading system and exam organization.
 
----
+
 
 ### 3. ⚙️ Core Engine & Infrastructure
 
@@ -53,7 +53,7 @@ Each business entity (except the entry point) is composed of a **header file (.h
 - **Main** (`Main.cpp`)  
   Entry point containing the main execution loop.
 
----
+
 
 ## 🛠️ Technical Specifications
 
@@ -62,7 +62,7 @@ Each business entity (except the entry point) is composed of a **header file (.h
 - 💻 **Language**: C++ (ISO C++11 or higher recommended)  
 - 🧠 **Paradigm**: Object-Oriented Programming (Inheritance, Encapsulation, Polymorphism)
 
----
+
 
 ## 🚀 Getting Started
 
